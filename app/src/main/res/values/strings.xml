@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Recorder</string>
+    <string name="record_title">מקליט מסך</string>
+    <string name="record_description">לחץ על הכפתור כדי להתחיל/להפסיק הקלטה</string>
+    <string name="start_recording">התחל הקלטה</string>
+    <string name="stop_recording">עצור הקלטה</string>
+    <string name="recording_active">ההקלטה פעילה...</string>
+    <string name="permissions_required">נדרשות הרשאות להקלטה</string>
+    <string name="check_last_recording">בדוק הקלטה אחרונה</string>
+    <string name="open_recordings">פתח תיקיית הקלטות</string>
+</resources> 
