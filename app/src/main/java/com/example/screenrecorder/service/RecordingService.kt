@@ -19,6 +19,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 import android.widget.Toast
 import android.util.Log
+import com.example.screenrecorder.R
 
 class RecordingService : Service() {
     private var mediaProjection: MediaProjection? = null
@@ -28,8 +29,6 @@ class RecordingService : Service() {
     private var currentVideoFile: File? = null
 
     private val SCREEN_WIDTH = 1080
-    private val SCREEN_HEIGHT = 1920
-    private val SCREEN_DPI = 1
 
     private val mediaProjectionManager by lazy {
         getSystemService(Context.MEDIA_PROJECTION_SERVICE) as MediaProjectionManager
@@ -112,7 +111,7 @@ class RecordingService : Service() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channel = NotificationChannel(
                 NOTIFICATION_CHANNEL_ID,
-                "Screen Recording",
+                getString(R.string.screen_recording),
                 NotificationManager.IMPORTANCE_DEFAULT
             )
             val manager = getSystemService(NotificationManager::class.java)
@@ -122,8 +121,8 @@ class RecordingService : Service() {
 
     private fun createNotification(): Notification {
         return NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID)
-            .setContentTitle("הקלטת מסך")
-            .setContentText("מקליט כעת...")
+            .setContentTitle(getString(R.string.recording_title))
+            .setContentText(getString(R.string.recording_in_progress))
             .setSmallIcon(android.R.drawable.ic_menu_camera)
             .setContentIntent(
                 PendingIntent.getActivity(

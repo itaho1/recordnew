@@ -9,4 +9,7 @@
     <string name="permissions_required">נדרשות הרשאות להקלטה</string>
     <string name="check_last_recording">בדוק הקלטה אחרונה</string>
     <string name="open_recordings">פתח תיקיית הקלטות</string>
+    <string name="recording_title">הקלטת מסך</string>
+    <string name="recording_in_progress">מקליט כעת...</string>
+    <string name="screen_recording">Screen Recording</string>
 </resources> 
