@@ -17,6 +17,7 @@ import android.provider.Settings
 import android.util.Log
 import android.view.WindowManager
 import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -53,6 +54,24 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private val startForResult = registerForActivityResult(
+        ActivityResultContracts.StartActivityForResult()
+    ) { result ->
+        if (result.resultCode == Activity.RESULT_OK) {
+            val intent = Intent(this, RecordingService::class.java).apply {
+                putExtra("resultCode", result.resultCode)
+                putExtra("data", result.data)
+            }
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                startForegroundService(intent)
+            } else {
+                startService(intent)
+            }
+            isRecording = true
+            updateUI()
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         try {
@@ -63,16 +82,8 @@ class MainActivity : AppCompatActivity() {
             binding = ActivityMainBinding.inflate(layoutInflater)
             setContentView(binding.root)
 
-            // בקשת הרשאות בהתחלה
-            checkPermissionsAndStartRecording()
-
-            binding.recordButton.setOnClickListener {
-                if (!isRecording) {
-                    checkPermissionsAndStartRecording()
-                } else {
-                    stopRecording()
-                }
-            }
+            setupClickListeners()
+            registerReceiver()
 
             binding.openFolderButton.setOnClickListener {
                 openRecordingsFolder()
@@ -81,19 +92,6 @@ class MainActivity : AppCompatActivity() {
             binding.checkFileButton.setOnClickListener {
                 checkLastRecording()
             }
-
-            // רישום ה-receiver
-            val filter = IntentFilter().apply {
-                addAction("RECORDING_STARTED")
-                addAction("RECORDING_COMPLETED")
-            }
-            ContextCompat.registerReceiver(
-                this,
-                recordingStateReceiver,
-                filter,
-                ContextCompat.RECEIVER_NOT_EXPORTED
-            )
-            receiverRegistered = true
             
         } catch (e: Exception) {
             Log.e("MainActivity", "Error in onCreate", e)
@@ -101,61 +99,54 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun setupClickListeners() {
+        binding.recordButton.setOnClickListener {
+            if (!isRecording) {
+                checkAndRequestPermissions()
+            } else {
+                stopRecording()
+            }
+        }
+    }
+
+    private fun checkAndRequestPermissions() {
+        val permissions = getRequiredPermissions()
+        
+        if (hasPermissions(permissions)) {
+            startScreenRecording()
+        } else {
+            ActivityCompat.requestPermissions(
+                this,
+                permissions,
+                PERMISSIONS_REQUEST_CODE
+            )
+        }
+    }
+
+    private fun startScreenRecording() {
+        val captureIntent = mediaProjectionManager.createScreenCaptureIntent()
+        startForResult.launch(captureIntent)
+    }
+
+    private fun registerReceiver() {
+        val filter = IntentFilter().apply {
+            addAction("RECORDING_STARTED")
+            addAction("RECORDING_COMPLETED")
+        }
+        
+        ContextCompat.registerReceiver(
+            this,
+            recordingStateReceiver,
+            filter,
+            ContextCompat.RECEIVER_NOT_EXPORTED
+        )
+        receiverRegistered = true
+    }
+
     override fun onDestroy() {
         super.onDestroy()
         if (receiverRegistered) {
-            try {
-                unregisterReceiver(recordingStateReceiver)
-                receiverRegistered = false
-            } catch (e: Exception) {
-                Log.e("MainActivity", "Error unregistering receiver", e)
-            }
-        }
-    }
-
-    private fun checkPermissionsAndStartRecording() {
-        val permissions = getRequiredPermissions()
-        
-        // בדיקת הרשאת ניהול קבצים באנדרואיד 11 ומעלה
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            if (!Environment.isExternalStorageManager()) {
-                Toast.makeText(this, "נדרשת הרשאת ניהול קבצים", Toast.LENGTH_LONG).show()
-                startActivity(Intent(Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION))
-                return
-            }
-        }
-
-        // בדיקת שאר ההרשאות
-        if (!hasPermissions(permissions)) {
-            Log.d(TAG, "Requesting permissions...")
-            ActivityCompat.requestPermissions(this, permissions, PERMISSIONS_REQUEST_CODE)
-        } else {
-            Log.d(TAG, "All permissions granted, starting recording...")
-            startRecording()
-        }
-    }
-
-    // מניעת לחיצות מרובות
-    private var isProcessingClick = false
-
-    private fun startRecording() {
-        if (isProcessingClick) {
-            Log.d(TAG, "Ignoring click - already processing")
-            return
-        }
-        
-        isProcessingClick = true
-        
-        try {
-            val mediaProjectionManager = getSystemService(Context.MEDIA_PROJECTION_SERVICE) as MediaProjectionManager
-            val intent = mediaProjectionManager.createScreenCaptureIntent()
-            startActivityForResult(intent, SCREEN_RECORD_REQUEST_CODE)
-            
-        } catch (e: Exception) {
-            Log.e(TAG, "Error starting recording", e)
-            Toast.makeText(this, "שגיאה בהתחלת ההקלטה: ${e.message}", Toast.LENGTH_SHORT).show()
-        } finally {
-            isProcessingClick = false
+            unregisterReceiver(recordingStateReceiver)
         }
     }
 
@@ -189,7 +180,7 @@ class MainActivity : AppCompatActivity() {
         if (requestCode == PERMISSIONS_REQUEST_CODE) {
             if (grantResults.all { it == PackageManager.PERMISSION_GRANTED }) {
                 // אם כל ההרשאות אושרו, נתחיל את ההקלטה
-                startRecording()
+                startScreenRecording()
             } else {
                 Toast.makeText(this, "נדרשות כל ההרשאות כדי להקליט מסך", Toast.LENGTH_LONG).show()
             }

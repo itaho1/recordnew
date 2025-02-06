@@ -1,0 +1,184 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/build.gradle</file>
+  <line>49</line>
+  <module>recordnew.app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.15.0&lt;/html&gt;</description>
+  <highlighted_element>'androidx.core:core-ktx:1.12.0'</highlighted_element>
+  <language>Groovy</language>
+  <offset>19</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/build.gradle</file>
+  <line>50</line>
+  <module>recordnew.app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0&lt;/html&gt;</description>
+  <highlighted_element>'androidx.appcompat:appcompat:1.6.1'</highlighted_element>
+  <language>Groovy</language>
+  <offset>19</offset>
+  <length>36</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/build.gradle</file>
+  <line>51</line>
+  <module>recordnew.app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.6.2 is available: 2.8.7&lt;/html&gt;</description>
+  <highlighted_element>'androidx.lifecycle:lifecycle-runtime-ktx:2.6.2'</highlighted_element>
+  <language>Groovy</language>
+  <offset>19</offset>
+  <length>48</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/build.gradle</file>
+  <line>52</line>
+  <module>recordnew.app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of androidx.activity:activity-ktx than 1.8.2 is available: 1.10.0&lt;/html&gt;</description>
+  <highlighted_element>'androidx.activity:activity-ktx:1.8.2'</highlighted_element>
+  <language>Groovy</language>
+  <offset>19</offset>
+  <length>38</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/build.gradle</file>
+  <line>55</line>
+  <module>recordnew.app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0&lt;/html&gt;</description>
+  <highlighted_element>'com.google.android.material:material:1.11.0'</highlighted_element>
+  <language>Groovy</language>
+  <offset>19</offset>
+  <length>45</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/build.gradle</file>
+  <line>58</line>
+  <module>recordnew.app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.6.2 is available: 2.8.7&lt;/html&gt;</description>
+  <highlighted_element>'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2'</highlighted_element>
+  <language>Groovy</language>
+  <offset>19</offset>
+  <length>50</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/build.gradle</file>
+  <line>59</line>
+  <module>recordnew.app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.6.2 is available: 2.8.7&lt;/html&gt;</description>
+  <highlighted_element>'androidx.lifecycle:lifecycle-livedata-ktx:2.6.2'</highlighted_element>
+  <language>Groovy</language>
+  <offset>19</offset>
+  <length>49</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/build.gradle</file>
+  <line>65</line>
+  <module>recordnew.app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of androidx.media3:media3-exoplayer than 1.2.1 is available: 1.5.1&lt;/html&gt;</description>
+  <highlighted_element>'androidx.media3:media3-exoplayer:1.2.1'</highlighted_element>
+  <language>Groovy</language>
+  <offset>19</offset>
+  <length>40</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/build.gradle</file>
+  <line>66</line>
+  <module>recordnew.app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of androidx.media3:media3-ui than 1.2.1 is available: 1.5.1&lt;/html&gt;</description>
+  <highlighted_element>'androidx.media3:media3-ui:1.2.1'</highlighted_element>
+  <language>Groovy</language>
+  <offset>19</offset>
+  <length>33</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/build.gradle</file>
+  <line>68</line>
+  <module>recordnew.app</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/build.gradle" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.0&lt;/html&gt;</description>
+  <highlighted_element>'androidx.constraintlayout:constraintlayout:2.1.4'</highlighted_element>
+  <language>Groovy</language>
+  <offset>19</offset>
+  <length>50</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradle/libs.versions.toml</file>
+  <line>3</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradle/libs.versions.toml" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of org.jetbrains.kotlin.android than 1.9.0 is available: 1.9.22&lt;/html&gt;</description>
+  <highlighted_element>&quot;1.9.0&quot;</highlighted_element>
+  <language>TOML</language>
+  <offset>9</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradle/libs.versions.toml</file>
+  <line>10</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradle/libs.versions.toml" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.7.0 is available: 2.8.7&lt;/html&gt;</description>
+  <highlighted_element>&quot;2.7.0&quot;</highlighted_element>
+  <language>TOML</language>
+  <offset>12</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradle/libs.versions.toml</file>
+  <line>10</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradle/libs.versions.toml" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.7.0 is available: 2.8.7&lt;/html&gt;</description>
+  <highlighted_element>&quot;2.7.0&quot;</highlighted_element>
+  <language>TOML</language>
+  <offset>12</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradle/libs.versions.toml</file>
+  <line>10</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradle/libs.versions.toml" />
+  <problem_class id="AndroidLintGradleDependency" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete Gradle Dependency</problem_class>
+  <hints />
+  <description>&lt;html&gt;A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.8.7&lt;/html&gt;</description>
+  <highlighted_element>&quot;2.7.0&quot;</highlighted_element>
+  <language>TOML</language>
+  <offset>12</offset>
+  <length>7</length>
+</problem>
+</problems>

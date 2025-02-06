@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+  <line>14</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+  <problem_class id="AndroidLintSelectedPhotoAccess" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Behavior change when requesting photo library access</problem_class>
+  <hints />
+  <description>&lt;html&gt;Your app is currently not handling Selected Photos Access introduced in Android 14+&lt;/html&gt;</description>
+  <highlighted_element>android.permission.READ_MEDIA_VIDEO&quot; /&gt; &lt;uses-permission</highlighted_element>
+  <language>XML</language>
+  <offset>35</offset>
+  <length>60</length>
+</problem>
+</problems>

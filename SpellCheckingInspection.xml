@@ -1,0 +1,3375 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/ScreenRecorder/gradlew.bat</file>
+  <line>25</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/ScreenRecorder/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'setlocal'</description>
+  <highlighted_element>setlocal</highlighted_element>
+  <language>textmate</language>
+  <offset>24</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/ScreenRecorder/gradlew.bat</file>
+  <line>43</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/ScreenRecorder/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ERRORLEVEL'</description>
+  <highlighted_element>ERRORLEVEL</highlighted_element>
+  <language>textmate</language>
+  <offset>5</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/ScreenRecorder/gradlew.bat</file>
+  <line>74</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/ScreenRecorder/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Dorg'</description>
+  <highlighted_element>Dorg</highlighted_element>
+  <language>textmate</language>
+  <offset>60</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/ScreenRecorder/gradlew.bat</file>
+  <line>74</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/ScreenRecorder/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'appname'</description>
+  <highlighted_element>appname</highlighted_element>
+  <language>textmate</language>
+  <offset>72</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/ScreenRecorder/gradlew.bat</file>
+  <line>87</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/ScreenRecorder/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'endlocal'</description>
+  <highlighted_element>endlocal</highlighted_element>
+  <language>textmate</language>
+  <offset>24</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+  <line>5</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הרשאות'</description>
+  <highlighted_element>הרשאות</highlighted_element>
+  <language>XML</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+  <line>5</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נדרשות'</description>
+  <highlighted_element>נדרשות</highlighted_element>
+  <language>XML</language>
+  <offset>16</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>78</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onCreate(android.os.Bundle savedInstanceState)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הגדרת'</description>
+  <highlighted_element>הגדרת</highlighted_element>
+  <language>kotlin</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>98</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onCreate(android.os.Bundle savedInstanceState)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שגיאה'</description>
+  <highlighted_element>שגיאה</highlighted_element>
+  <language>kotlin</language>
+  <offset>34</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>98</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onCreate(android.os.Bundle savedInstanceState)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'באתחול'</description>
+  <highlighted_element>באתחול</highlighted_element>
+  <language>kotlin</language>
+  <offset>40</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>161</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שגיאה'</description>
+  <highlighted_element>שגיאה</highlighted_element>
+  <language>kotlin</language>
+  <offset>34</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>161</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בעצירת'</description>
+  <highlighted_element>בעצירת</highlighted_element>
+  <language>kotlin</language>
+  <offset>40</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>161</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ההקלטה'</description>
+  <highlighted_element>ההקלטה</highlighted_element>
+  <language>kotlin</language>
+  <offset>47</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>182</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onRequestPermissionsResult(int requestCode, java.lang.String[] permissions, int[] grantResults)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ההרשאות'</description>
+  <highlighted_element>ההרשאות</highlighted_element>
+  <language>kotlin</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>182</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onRequestPermissionsResult(int requestCode, java.lang.String[] permissions, int[] grantResults)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'אושרו'</description>
+  <highlighted_element>אושרו</highlighted_element>
+  <language>kotlin</language>
+  <offset>33</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>182</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onRequestPermissionsResult(int requestCode, java.lang.String[] permissions, int[] grantResults)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נתחיל'</description>
+  <highlighted_element>נתחיל</highlighted_element>
+  <language>kotlin</language>
+  <offset>40</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>182</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onRequestPermissionsResult(int requestCode, java.lang.String[] permissions, int[] grantResults)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ההקלטה'</description>
+  <highlighted_element>ההקלטה</highlighted_element>
+  <language>kotlin</language>
+  <offset>49</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>185</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onRequestPermissionsResult(int requestCode, java.lang.String[] permissions, int[] grantResults)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נדרשות'</description>
+  <highlighted_element>נדרשות</highlighted_element>
+  <language>kotlin</language>
+  <offset>38</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>185</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onRequestPermissionsResult(int requestCode, java.lang.String[] permissions, int[] grantResults)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ההרשאות'</description>
+  <highlighted_element>ההרשאות</highlighted_element>
+  <language>kotlin</language>
+  <offset>48</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>185</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onRequestPermissionsResult(int requestCode, java.lang.String[] permissions, int[] grantResults)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'להקליט'</description>
+  <highlighted_element>להקליט</highlighted_element>
+  <language>kotlin</language>
+  <offset>60</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>208</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שגיאה'</description>
+  <highlighted_element>שגיאה</highlighted_element>
+  <language>kotlin</language>
+  <offset>42</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>208</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בהתחלת'</description>
+  <highlighted_element>בהתחלת</highlighted_element>
+  <language>kotlin</language>
+  <offset>48</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>208</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'השירות'</description>
+  <highlighted_element>השירות</highlighted_element>
+  <language>kotlin</language>
+  <offset>55</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>211</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הרשאת'</description>
+  <highlighted_element>הרשאת</highlighted_element>
+  <language>kotlin</language>
+  <offset>38</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>211</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטת'</description>
+  <highlighted_element>הקלטת</highlighted_element>
+  <language>kotlin</language>
+  <offset>44</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>211</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נדחתה'</description>
+  <highlighted_element>נדחתה</highlighted_element>
+  <language>kotlin</language>
+  <offset>54</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>232</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void checkLastRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ניתן'</description>
+  <highlighted_element>ניתן</highlighted_element>
+  <language>kotlin</language>
+  <offset>28</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>232</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void checkLastRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'לפתוח'</description>
+  <highlighted_element>לפתוח</highlighted_element>
+  <language>kotlin</language>
+  <offset>33</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>232</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void checkLastRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקובץ'</description>
+  <highlighted_element>הקובץ</highlighted_element>
+  <language>kotlin</language>
+  <offset>42</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>243</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void openRecordingsFolder()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Fileexplorer'</description>
+  <highlighted_element>Fileexplorer</highlighted_element>
+  <language>kotlin</language>
+  <offset>38</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>244</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void openRecordingsFolder()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'fileexplorer'</description>
+  <highlighted_element>fileexplorer</highlighted_element>
+  <language>kotlin</language>
+  <offset>29</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>259</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void openRecordingsFolder()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקבצים'</description>
+  <highlighted_element>הקבצים</highlighted_element>
+  <language>kotlin</language>
+  <offset>21</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>259</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity void openRecordingsFolder()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נמצאים'</description>
+  <highlighted_element>נמצאים</highlighted_element>
+  <language>kotlin</language>
+  <offset>28</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>277</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity java.lang.String[] getRequiredPermissions()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'אנדרואיד'</description>
+  <highlighted_element>אנדרואיד</highlighted_element>
+  <language>kotlin</language>
+  <offset>15</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>277</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity java.lang.String[] getRequiredPermissions()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ומעלה'</description>
+  <highlighted_element>ומעלה</highlighted_element>
+  <language>kotlin</language>
+  <offset>27</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>285</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity java.lang.String[] getRequiredPermissions()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'אנדרואיד'</description>
+  <highlighted_element>אנדרואיד</highlighted_element>
+  <language>kotlin</language>
+  <offset>15</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>285</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.MainActivity java.lang.String[] getRequiredPermissions()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ומטה'</description>
+  <highlighted_element>ומטה</highlighted_element>
+  <language>kotlin</language>
+  <offset>27</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/RecordingStateReceiver.kt</file>
+  <line>9</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.RecordingStateReceiver void onReceive(android.content.Context context, android.content.Intent intent)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הלוגיקה'</description>
+  <highlighted_element>הלוגיקה</highlighted_element>
+  <language>kotlin</language>
+  <offset>11</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/RecordingStateReceiver.kt</file>
+  <line>9</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.RecordingStateReceiver void onReceive(android.content.Context context, android.content.Intent intent)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'תישאר'</description>
+  <highlighted_element>תישאר</highlighted_element>
+  <language>kotlin</language>
+  <offset>19</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/presentation/MainActivity.kt</file>
+  <line>31</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.presentation</package>
+  <entry_point TYPE="field" FQNAME="com.example.screenrecorder.presentation.MainActivity requestPermissionLauncher" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נדרשות'</description>
+  <highlighted_element>נדרשות</highlighted_element>
+  <language>kotlin</language>
+  <offset>34</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/presentation/MainActivity.kt</file>
+  <line>31</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.presentation</package>
+  <entry_point TYPE="field" FQNAME="com.example.screenrecorder.presentation.MainActivity requestPermissionLauncher" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הרשאות'</description>
+  <highlighted_element>הרשאות</highlighted_element>
+  <language>kotlin</language>
+  <offset>41</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/presentation/MainActivity.kt</file>
+  <line>31</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.presentation</package>
+  <entry_point TYPE="field" FQNAME="com.example.screenrecorder.presentation.MainActivity requestPermissionLauncher" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'להקלטה'</description>
+  <highlighted_element>להקלטה</highlighted_element>
+  <language>kotlin</language>
+  <offset>48</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/presentation/MainActivity.kt</file>
+  <line>106</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.presentation</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.presentation.MainActivity void updateUI()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הפסק'</description>
+  <highlighted_element>הפסק</highlighted_element>
+  <language>kotlin</language>
+  <offset>54</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/presentation/MainActivity.kt</file>
+  <line>106</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.presentation</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.presentation.MainActivity void updateUI()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטה'</description>
+  <highlighted_element>הקלטה</highlighted_element>
+  <language>kotlin</language>
+  <offset>59</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/presentation/MainActivity.kt</file>
+  <line>106</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.presentation</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.presentation.MainActivity void updateUI()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'התחל'</description>
+  <highlighted_element>התחל</highlighted_element>
+  <language>kotlin</language>
+  <offset>72</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/presentation/MainActivity.kt</file>
+  <line>106</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.presentation</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.presentation.MainActivity void updateUI()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטה'</description>
+  <highlighted_element>הקלטה</highlighted_element>
+  <language>kotlin</language>
+  <offset>77</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>60</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService int onStartCommand(android.content.Intent intent, int flags, int startId)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בדיקת'</description>
+  <highlighted_element>בדיקת</highlighted_element>
+  <language>kotlin</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>95</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService int onStartCommand(android.content.Intent intent, int flags, int startId)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שליחת'</description>
+  <highlighted_element>שליחת</highlighted_element>
+  <language>kotlin</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>95</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService int onStartCommand(android.content.Intent intent, int flags, int startId)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'התחלת'</description>
+  <highlighted_element>התחלת</highlighted_element>
+  <language>kotlin</language>
+  <offset>34</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>95</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService int onStartCommand(android.content.Intent intent, int flags, int startId)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטה'</description>
+  <highlighted_element>הקלטה</highlighted_element>
+  <language>kotlin</language>
+  <offset>40</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>125</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService android.app.Notification createNotification()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטת'</description>
+  <highlighted_element>הקלטת</highlighted_element>
+  <language>kotlin</language>
+  <offset>30</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>126</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService android.app.Notification createNotification()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מקליט'</description>
+  <highlighted_element>מקליט</highlighted_element>
+  <language>kotlin</language>
+  <offset>29</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>142</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void startRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הגדרת'</description>
+  <highlighted_element>הגדרת</highlighted_element>
+  <language>kotlin</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>146</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void startRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'חשוב'</description>
+  <highlighted_element>חשוב</highlighted_element>
+  <language>kotlin</language>
+  <offset>15</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>146</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void startRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'קודם'</description>
+  <highlighted_element>קודם</highlighted_element>
+  <language>kotlin</language>
+  <offset>22</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>146</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void startRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נרשום'</description>
+  <highlighted_element>נרשום</highlighted_element>
+  <language>kotlin</language>
+  <offset>27</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>154</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void startRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'אחרי'</description>
+  <highlighted_element>אחרי</highlighted_element>
+  <language>kotlin</language>
+  <offset>18</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>154</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void startRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ניצור'</description>
+  <highlighted_element>ניצור</highlighted_element>
+  <language>kotlin</language>
+  <offset>26</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>158</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void startRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'התחלת'</description>
+  <highlighted_element>התחלת</highlighted_element>
+  <language>kotlin</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>158</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void startRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ההקלטה'</description>
+  <highlighted_element>ההקלטה</highlighted_element>
+  <language>kotlin</language>
+  <offset>21</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>175</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService android.media.MediaRecorder setupMediaRecorder()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'וודא'</description>
+  <highlighted_element>וודא</highlighted_element>
+  <language>kotlin</language>
+  <offset>15</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>175</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService android.media.MediaRecorder setupMediaRecorder()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שהתיקייה'</description>
+  <highlighted_element>שהתיקייה</highlighted_element>
+  <language>kotlin</language>
+  <offset>20</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>175</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService android.media.MediaRecorder setupMediaRecorder()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'קיימת'</description>
+  <highlighted_element>קיימת</highlighted_element>
+  <language>kotlin</language>
+  <offset>29</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>183</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService android.media.MediaRecorder setupMediaRecorder()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בדוק'</description>
+  <highlighted_element>בדוק</highlighted_element>
+  <language>kotlin</language>
+  <offset>15</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>183</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService android.media.MediaRecorder setupMediaRecorder()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הרשאות'</description>
+  <highlighted_element>הרשאות</highlighted_element>
+  <language>kotlin</language>
+  <offset>20</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>183</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService android.media.MediaRecorder setupMediaRecorder()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'כתיבה'</description>
+  <highlighted_element>כתיבה</highlighted_element>
+  <language>kotlin</language>
+  <offset>27</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>191</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService android.media.MediaRecorder setupMediaRecorder()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ליצור'</description>
+  <highlighted_element>ליצור</highlighted_element>
+  <language>kotlin</language>
+  <offset>19</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>191</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService android.media.MediaRecorder setupMediaRecorder()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'קובץ'</description>
+  <highlighted_element>קובץ</highlighted_element>
+  <language>kotlin</language>
+  <offset>25</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>264</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'עצירה'</description>
+  <highlighted_element>עצירה</highlighted_element>
+  <language>kotlin</language>
+  <offset>19</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>264</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מסודרת'</description>
+  <highlighted_element>מסודרת</highlighted_element>
+  <language>kotlin</language>
+  <offset>25</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>264</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ההקלטה'</description>
+  <highlighted_element>ההקלטה</highlighted_element>
+  <language>kotlin</language>
+  <offset>35</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>271</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שחרור'</description>
+  <highlighted_element>שחרור</highlighted_element>
+  <language>kotlin</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>271</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'המשאבים'</description>
+  <highlighted_element>המשאבים</highlighted_element>
+  <language>kotlin</language>
+  <offset>21</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>271</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'המסך'</description>
+  <highlighted_element>המסך</highlighted_element>
+  <language>kotlin</language>
+  <offset>32</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>278</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שליחת'</description>
+  <highlighted_element>שליחת</highlighted_element>
+  <language>kotlin</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>278</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'סיום'</description>
+  <highlighted_element>סיום</highlighted_element>
+  <language>kotlin</language>
+  <offset>34</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>278</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטה'</description>
+  <highlighted_element>הקלטה</highlighted_element>
+  <language>kotlin</language>
+  <offset>39</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>289</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'וידוא'</description>
+  <highlighted_element>וידוא</highlighted_element>
+  <language>kotlin</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>289</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'המשאבים'</description>
+  <highlighted_element>המשאבים</highlighted_element>
+  <language>kotlin</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>289</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="method" FQNAME="com.example.screenrecorder.service.RecordingService void stopRecording()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'משוחררים'</description>
+  <highlighted_element>משוחררים</highlighted_element>
+  <language>kotlin</language>
+  <offset>33</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml</file>
+  <line>56</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בדוק'</description>
+  <highlighted_element>בדוק</highlighted_element>
+  <language>XML</language>
+  <offset>30</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml</file>
+  <line>56</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'קובץ'</description>
+  <highlighted_element>קובץ</highlighted_element>
+  <language>XML</language>
+  <offset>35</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml</file>
+  <line>56</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'אחרון'</description>
+  <highlighted_element>אחרון</highlighted_element>
+  <language>XML</language>
+  <offset>40</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml</file>
+  <line>63</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'תיקיית'</description>
+  <highlighted_element>תיקיית</highlighted_element>
+  <language>XML</language>
+  <offset>34</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml</file>
+  <line>63</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטות'</description>
+  <highlighted_element>הקלטות</highlighted_element>
+  <language>XML</language>
+  <offset>41</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>4</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מקליט'</description>
+  <highlighted_element>מקליט</highlighted_element>
+  <language>XML</language>
+  <offset>32</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>5</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הכפתור'</description>
+  <highlighted_element>הכפתור</highlighted_element>
+  <language>XML</language>
+  <offset>45</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>5</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'להתחיל'</description>
+  <highlighted_element>להתחיל</highlighted_element>
+  <language>XML</language>
+  <offset>56</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>5</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'להפסיק'</description>
+  <highlighted_element>להפסיק</highlighted_element>
+  <language>XML</language>
+  <offset>63</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>5</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטה'</description>
+  <highlighted_element>הקלטה</highlighted_element>
+  <language>XML</language>
+  <offset>70</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>6</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'התחל'</description>
+  <highlighted_element>התחל</highlighted_element>
+  <language>XML</language>
+  <offset>35</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>6</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטה'</description>
+  <highlighted_element>הקלטה</highlighted_element>
+  <language>XML</language>
+  <offset>40</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>7</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'עצור'</description>
+  <highlighted_element>עצור</highlighted_element>
+  <language>XML</language>
+  <offset>34</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>7</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטה'</description>
+  <highlighted_element>הקלטה</highlighted_element>
+  <language>XML</language>
+  <offset>39</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>8</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ההקלטה'</description>
+  <highlighted_element>ההקלטה</highlighted_element>
+  <language>XML</language>
+  <offset>36</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>8</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'פעילה'</description>
+  <highlighted_element>פעילה</highlighted_element>
+  <language>XML</language>
+  <offset>43</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>9</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נדרשות'</description>
+  <highlighted_element>נדרשות</highlighted_element>
+  <language>XML</language>
+  <offset>40</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>9</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הרשאות'</description>
+  <highlighted_element>הרשאות</highlighted_element>
+  <language>XML</language>
+  <offset>47</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>9</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'להקלטה'</description>
+  <highlighted_element>להקלטה</highlighted_element>
+  <language>XML</language>
+  <offset>54</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>10</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בדוק'</description>
+  <highlighted_element>בדוק</highlighted_element>
+  <language>XML</language>
+  <offset>40</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>10</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטה'</description>
+  <highlighted_element>הקלטה</highlighted_element>
+  <language>XML</language>
+  <offset>45</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>10</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'אחרונה'</description>
+  <highlighted_element>אחרונה</highlighted_element>
+  <language>XML</language>
+  <offset>51</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>11</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'תיקיית'</description>
+  <highlighted_element>תיקיית</highlighted_element>
+  <language>XML</language>
+  <offset>39</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>11</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטות'</description>
+  <highlighted_element>הקלטות</highlighted_element>
+  <language>XML</language>
+  <offset>46</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew.bat</file>
+  <line>16</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'SPDX'</description>
+  <highlighted_element>SPDX</highlighted_element>
+  <language>textmate</language>
+  <offset>5</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew.bat</file>
+  <line>27</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'setlocal'</description>
+  <highlighted_element>setlocal</highlighted_element>
+  <language>textmate</language>
+  <offset>24</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew.bat</file>
+  <line>46</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ERRORLEVEL'</description>
+  <highlighted_element>ERRORLEVEL</highlighted_element>
+  <language>textmate</language>
+  <offset>4</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew.bat</file>
+  <line>77</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Dorg'</description>
+  <highlighted_element>Dorg</highlighted_element>
+  <language>textmate</language>
+  <offset>60</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew.bat</file>
+  <line>77</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'appname'</description>
+  <highlighted_element>appname</highlighted_element>
+  <language>textmate</language>
+  <offset>72</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/gradlew.bat</file>
+  <line>92</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/gradlew.bat" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'endlocal'</description>
+  <highlighted_element>endlocal</highlighted_element>
+  <language>textmate</language>
+  <offset>24</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>1</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מדריך'</description>
+  <highlighted_element>מדריך</highlighted_element>
+  <language>Markdown</language>
+  <offset>2</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>1</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'לפיתוח'</description>
+  <highlighted_element>לפיתוח</highlighted_element>
+  <language>Markdown</language>
+  <offset>8</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>1</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'אפליקציית'</description>
+  <highlighted_element>אפליקציית</highlighted_element>
+  <language>Markdown</language>
+  <offset>15</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>1</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטת'</description>
+  <highlighted_element>הקלטת</highlighted_element>
+  <language>Markdown</language>
+  <offset>25</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>3</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'דרישות'</description>
+  <highlighted_element>דרישות</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>3</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מערכת'</description>
+  <highlighted_element>מערכת</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>7</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מכשיר'</description>
+  <highlighted_element>מכשיר</highlighted_element>
+  <language>Markdown</language>
+  <offset>5</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>7</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'אנדרואיד'</description>
+  <highlighted_element>אנדרואיד</highlighted_element>
+  <language>Markdown</language>
+  <offset>11</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>7</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'גרסה'</description>
+  <highlighted_element>גרסה</highlighted_element>
+  <language>Markdown</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>9</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הרשאות'</description>
+  <highlighted_element>הרשאות</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>9</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נדרשות'</description>
+  <highlighted_element>נדרשות</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>17</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'טכנולוגיות'</description>
+  <highlighted_element>טכנולוגיות</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>17</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מרכזיות'</description>
+  <highlighted_element>מרכזיות</highlighted_element>
+  <language>Markdown</language>
+  <offset>14</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>18</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'טכנולוגיה'</description>
+  <highlighted_element>טכנולוגיה</highlighted_element>
+  <language>Markdown</language>
+  <offset>2</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>18</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'גרסה'</description>
+  <highlighted_element>גרסה</highlighted_element>
+  <language>Markdown</language>
+  <offset>24</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>18</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שימוש'</description>
+  <highlighted_element>שימוש</highlighted_element>
+  <language>Markdown</language>
+  <offset>33</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>18</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'עיקרי'</description>
+  <highlighted_element>עיקרי</highlighted_element>
+  <language>Markdown</language>
+  <offset>39</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>20</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'תכנות'</description>
+  <highlighted_element>תכנות</highlighted_element>
+  <language>Markdown</language>
+  <offset>38</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>20</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ראשית'</description>
+  <highlighted_element>ראשית</highlighted_element>
+  <language>Markdown</language>
+  <offset>44</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>21</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ניהול'</description>
+  <highlighted_element>ניהול</highlighted_element>
+  <language>Markdown</language>
+  <offset>34</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>21</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'אסינכרוני'</description>
+  <highlighted_element>אסינכרוני</highlighted_element>
+  <language>Markdown</language>
+  <offset>40</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>22</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'עיצוב'</description>
+  <highlighted_element>עיצוב</highlighted_element>
+  <language>Markdown</language>
+  <offset>34</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>22</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ממשק'</description>
+  <highlighted_element>ממשק</highlighted_element>
+  <language>Markdown</language>
+  <offset>40</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>22</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'משתמש'</description>
+  <highlighted_element>משתמש</highlighted_element>
+  <language>Markdown</language>
+  <offset>45</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>23</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטת'</description>
+  <highlighted_element>הקלטת</highlighted_element>
+  <language>Markdown</language>
+  <offset>34</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>24</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'וידאו'</description>
+  <highlighted_element>וידאו</highlighted_element>
+  <language>Markdown</language>
+  <offset>37</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>25</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ניהול'</description>
+  <highlighted_element>ניהול</highlighted_element>
+  <language>Markdown</language>
+  <offset>33</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>25</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'אפליקציה'</description>
+  <highlighted_element>אפליקציה</highlighted_element>
+  <language>Markdown</language>
+  <offset>43</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>27</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ארכיטקטורה'</description>
+  <highlighted_element>ארכיטקטורה</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>33</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מבנה'</description>
+  <highlighted_element>מבנה</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>33</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'תיקיות'</description>
+  <highlighted_element>תיקיות</highlighted_element>
+  <language>Markdown</language>
+  <offset>8</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>59</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'תכונות'</description>
+  <highlighted_element>תכונות</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>59</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'עיקריות'</description>
+  <highlighted_element>עיקריות</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>60</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטת'</description>
+  <highlighted_element>הקלטת</highlighted_element>
+  <language>Markdown</language>
+  <offset>6</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>61</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'וידאו'</description>
+  <highlighted_element>וידאו</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>61</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מובנה'</description>
+  <highlighted_element>מובנה</highlighted_element>
+  <language>Markdown</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>62</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'תצוגת'</description>
+  <highlighted_element>תצוגת</highlighted_element>
+  <language>Markdown</language>
+  <offset>6</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>62</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'סטטוס'</description>
+  <highlighted_element>סטטוס</highlighted_element>
+  <language>Markdown</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>62</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטה'</description>
+  <highlighted_element>הקלטה</highlighted_element>
+  <language>Markdown</language>
+  <offset>18</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>63</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שמירה'</description>
+  <highlighted_element>שמירה</highlighted_element>
+  <language>Markdown</language>
+  <offset>6</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>63</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'אוטומטית'</description>
+  <highlighted_element>אוטומטית</highlighted_element>
+  <language>Markdown</language>
+  <offset>12</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>64</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הגדרות'</description>
+  <highlighted_element>הגדרות</highlighted_element>
+  <language>Markdown</language>
+  <offset>6</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>64</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בסיסיות'</description>
+  <highlighted_element>בסיסיות</highlighted_element>
+  <language>Markdown</language>
+  <offset>13</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>64</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'רזולוציה'</description>
+  <highlighted_element>רזולוציה</highlighted_element>
+  <language>Markdown</language>
+  <offset>22</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>64</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ביטים'</description>
+  <highlighted_element>ביטים</highlighted_element>
+  <language>Markdown</language>
+  <offset>36</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>66</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שלבי'</description>
+  <highlighted_element>שלבי</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>66</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'פיתוח'</description>
+  <highlighted_element>פיתוח</highlighted_element>
+  <language>Markdown</language>
+  <offset>8</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>66</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מומלצים'</description>
+  <highlighted_element>מומלצים</highlighted_element>
+  <language>Markdown</language>
+  <offset>14</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>67</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הגדרת'</description>
+  <highlighted_element>הגדרת</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>67</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'פרויקט'</description>
+  <highlighted_element>פרויקט</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>67</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'והרשאות'</description>
+  <highlighted_element>והרשאות</highlighted_element>
+  <language>Markdown</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>68</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'יצירת'</description>
+  <highlighted_element>יצירת</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>68</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שירות'</description>
+  <highlighted_element>שירות</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>68</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקלטה'</description>
+  <highlighted_element>הקלטה</highlighted_element>
+  <language>Markdown</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>69</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'יצירת'</description>
+  <highlighted_element>יצירת</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>69</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ממשק'</description>
+  <highlighted_element>ממשק</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>69</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'משתמש'</description>
+  <highlighted_element>משתמש</highlighted_element>
+  <language>Markdown</language>
+  <offset>14</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>69</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בסיסי'</description>
+  <highlighted_element>בסיסי</highlighted_element>
+  <language>Markdown</language>
+  <offset>20</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>70</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הוספת'</description>
+  <highlighted_element>הוספת</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>70</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'וידאו'</description>
+  <highlighted_element>וידאו</highlighted_element>
+  <language>Markdown</language>
+  <offset>13</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>71</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הוספת'</description>
+  <highlighted_element>הוספת</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>71</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הגדרות'</description>
+  <highlighted_element>הגדרות</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>72</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בדיקות'</description>
+  <highlighted_element>בדיקות</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>72</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ואופטימיזציה'</description>
+  <highlighted_element>ואופטימיזציה</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>74</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בדיקות'</description>
+  <highlighted_element>בדיקות</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>74</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נדרשות'</description>
+  <highlighted_element>נדרשות</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>75</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בדיקת'</description>
+  <highlighted_element>בדיקת</highlighted_element>
+  <language>Markdown</language>
+  <offset>4</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>75</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הרשאות'</description>
+  <highlighted_element>הרשאות</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>75</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בזמן'</description>
+  <highlighted_element>בזמן</highlighted_element>
+  <language>Markdown</language>
+  <offset>17</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>75</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ריצה'</description>
+  <highlighted_element>ריצה</highlighted_element>
+  <language>Markdown</language>
+  <offset>22</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>76</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בדיקת'</description>
+  <highlighted_element>בדיקת</highlighted_element>
+  <language>Markdown</language>
+  <offset>4</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>76</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שמירת'</description>
+  <highlighted_element>שמירת</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>76</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'קבצים'</description>
+  <highlighted_element>קבצים</highlighted_element>
+  <language>Markdown</language>
+  <offset>16</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>77</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בדיקת'</description>
+  <highlighted_element>בדיקת</highlighted_element>
+  <language>Markdown</language>
+  <offset>4</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>77</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'צריכת'</description>
+  <highlighted_element>צריכת</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>77</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'משאבים'</description>
+  <highlighted_element>משאבים</highlighted_element>
+  <language>Markdown</language>
+  <offset>16</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>78</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בדיקת'</description>
+  <highlighted_element>בדיקת</highlighted_element>
+  <language>Markdown</language>
+  <offset>4</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>78</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'תאימות'</description>
+  <highlighted_element>תאימות</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>78</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'למכשירים'</description>
+  <highlighted_element>למכשירים</highlighted_element>
+  <language>Markdown</language>
+  <offset>17</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>78</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שונים'</description>
+  <highlighted_element>שונים</highlighted_element>
+  <language>Markdown</language>
+  <offset>26</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>80</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מקורות'</description>
+  <highlighted_element>מקורות</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>85</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מקורות'</description>
+  <highlighted_element>מקורות</highlighted_element>
+  <language>Markdown</language>
+  <offset>2</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>85</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'רשמיים'</description>
+  <highlighted_element>רשמיים</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>86</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מדריך'</description>
+  <highlighted_element>מדריך</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>89</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'השלבים'</description>
+  <highlighted_element>השלבים</highlighted_element>
+  <language>Markdown</language>
+  <offset>2</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>89</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הבאים'</description>
+  <highlighted_element>הבאים</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>90</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'פרויקט'</description>
+  <highlighted_element>פרויקט</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>91</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'העתק'</description>
+  <highlighted_element>העתק</highlighted_element>
+  <language>Markdown</language>
+  <offset>6</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>91</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מבנה'</description>
+  <highlighted_element>מבנה</highlighted_element>
+  <language>Markdown</language>
+  <offset>14</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>91</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'התיקיות'</description>
+  <highlighted_element>התיקיות</highlighted_element>
+  <language>Markdown</language>
+  <offset>19</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>92</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הגדר'</description>
+  <highlighted_element>הגדר</highlighted_element>
+  <language>Markdown</language>
+  <offset>6</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>92</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'קובץ'</description>
+  <highlighted_element>קובץ</highlighted_element>
+  <language>Markdown</language>
+  <offset>14</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>93</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'התחל'</description>
+  <highlighted_element>התחל</highlighted_element>
+  <language>Markdown</language>
+  <offset>6</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>93</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'לפתח'</description>
+  <highlighted_element>לפתח</highlighted_element>
+  <language>Markdown</language>
+  <offset>11</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>95</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בהצלחה'</description>
+  <highlighted_element>בהצלחה</highlighted_element>
+  <language>Markdown</language>
+  <offset>0</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>95</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נתקלת'</description>
+  <highlighted_element>נתקלת</highlighted_element>
+  <language>Markdown</language>
+  <offset>14</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>95</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בבעיות'</description>
+  <highlighted_element>בבעיות</highlighted_element>
+  <language>Markdown</language>
+  <offset>20</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>95</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'לעזור'</description>
+  <highlighted_element>לעזור</highlighted_element>
+  <language>Markdown</language>
+  <offset>37</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>97</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הגדרות'</description>
+  <highlighted_element>הגדרות</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/instructions/instructions.md</file>
+  <line>97</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/instructions/instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'פרויקט'</description>
+  <highlighted_element>פרויקט</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>1</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הוראות'</description>
+  <highlighted_element>הוראות</highlighted_element>
+  <language>Markdown</language>
+  <offset>2</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>1</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'התקנה'</description>
+  <highlighted_element>התקנה</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>1</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'והגדרת'</description>
+  <highlighted_element>והגדרת</highlighted_element>
+  <language>Markdown</language>
+  <offset>15</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>3</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הכנה'</description>
+  <highlighted_element>הכנה</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>4</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'לפני'</description>
+  <highlighted_element>לפני</highlighted_element>
+  <language>Markdown</language>
+  <offset>0</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>4</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שמתחילים'</description>
+  <highlighted_element>שמתחילים</highlighted_element>
+  <language>Markdown</language>
+  <offset>5</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>4</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'וודא'</description>
+  <highlighted_element>וודא</highlighted_element>
+  <language>Markdown</language>
+  <offset>15</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>5</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מותקן'</description>
+  <highlighted_element>מותקן</highlighted_element>
+  <language>Markdown</language>
+  <offset>17</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>6</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מותקן'</description>
+  <highlighted_element>מותקן</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>7</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הרשאות'</description>
+  <highlighted_element>הרשאות</highlighted_element>
+  <language>Markdown</language>
+  <offset>2</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>7</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מנהל'</description>
+  <highlighted_element>מנהל</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>7</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'במחשב'</description>
+  <highlighted_element>במחשב</highlighted_element>
+  <language>Markdown</language>
+  <offset>14</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>9</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שלבי'</description>
+  <highlighted_element>שלבי</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>9</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ההתקנה'</description>
+  <highlighted_element>ההתקנה</highlighted_element>
+  <language>Markdown</language>
+  <offset>8</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>11</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הגדרת'</description>
+  <highlighted_element>הגדרת</highlighted_element>
+  <language>Markdown</language>
+  <offset>7</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>11</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'קובץ'</description>
+  <highlighted_element>קובץ</highlighted_element>
+  <language>Markdown</language>
+  <offset>13</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>14</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'סנכרון'</description>
+  <highlighted_element>סנכרון</highlighted_element>
+  <language>Markdown</language>
+  <offset>7</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>16</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הפרויקט'</description>
+  <highlighted_element>הפרויקט</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>17</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'המתן'</description>
+  <highlighted_element>המתן</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>17</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'לסנכרון'</description>
+  <highlighted_element>לסנכרון</highlighted_element>
+  <language>Markdown</language>
+  <offset>8</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>17</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'אוטומטי'</description>
+  <highlighted_element>אוטומטי</highlighted_element>
+  <language>Markdown</language>
+  <offset>16</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>19</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בדיקת'</description>
+  <highlighted_element>בדיקת</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>19</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'תקינות'</description>
+  <highlighted_element>תקינות</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>20</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'וודא'</description>
+  <highlighted_element>וודא</highlighted_element>
+  <language>Markdown</language>
+  <offset>0</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>21</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקבצים'</description>
+  <highlighted_element>הקבצים</highlighted_element>
+  <language>Markdown</language>
+  <offset>5</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>21</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נוצרו'</description>
+  <highlighted_element>נוצרו</highlighted_element>
+  <language>Markdown</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>21</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בהצלחה'</description>
+  <highlighted_element>בהצלחה</highlighted_element>
+  <language>Markdown</language>
+  <offset>18</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>22</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שגיאות'</description>
+  <highlighted_element>שגיאות</highlighted_element>
+  <language>Markdown</language>
+  <offset>6</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>22</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בסנכרון'</description>
+  <highlighted_element>בסנכרון</highlighted_element>
+  <language>Markdown</language>
+  <offset>13</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>23</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מוגדרים'</description>
+  <highlighted_element>מוגדרים</highlighted_element>
+  <language>Markdown</language>
+  <offset>17</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>23</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נכון'</description>
+  <highlighted_element>נכון</highlighted_element>
+  <language>Markdown</language>
+  <offset>25</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>25</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'פתרון'</description>
+  <highlighted_element>פתרון</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>25</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בעיות'</description>
+  <highlighted_element>בעיות</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>25</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נפוצות'</description>
+  <highlighted_element>נפוצות</highlighted_element>
+  <language>Markdown</language>
+  <offset>15</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>26</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נתקלת'</description>
+  <highlighted_element>נתקלת</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>26</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בבעיות'</description>
+  <highlighted_element>בבעיות</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>27</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'וודא'</description>
+  <highlighted_element>וודא</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>27</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הקבצים'</description>
+  <highlighted_element>הקבצים</highlighted_element>
+  <language>Markdown</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>27</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נוצרו'</description>
+  <highlighted_element>נוצרו</highlighted_element>
+  <language>Markdown</language>
+  <offset>19</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>27</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'במקומות'</description>
+  <highlighted_element>במקומות</highlighted_element>
+  <language>Markdown</language>
+  <offset>25</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>27</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'הנכונים'</description>
+  <highlighted_element>הנכונים</highlighted_element>
+  <language>Markdown</language>
+  <offset>33</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>28</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בדוק'</description>
+  <highlighted_element>בדוק</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>28</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מוגדר'</description>
+  <highlighted_element>מוגדר</highlighted_element>
+  <language>Markdown</language>
+  <offset>15</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>28</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נכון'</description>
+  <highlighted_element>נכון</highlighted_element>
+  <language>Markdown</language>
+  <offset>21</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>29</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'להריץ'</description>
+  <highlighted_element>להריץ</highlighted_element>
+  <language>Markdown</language>
+  <offset>7</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>29</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'כמנהל'</description>
+  <highlighted_element>כמנהל</highlighted_element>
+  <language>Markdown</language>
+  <offset>31</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>31</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'קישורים'</description>
+  <highlighted_element>קישורים</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>31</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'שימושיים'</description>
+  <highlighted_element>שימושיים</highlighted_element>
+  <language>Markdown</language>
+  <offset>11</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>36</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'תמיכה'</description>
+  <highlighted_element>תמיכה</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>37</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נתקלת'</description>
+  <highlighted_element>נתקלת</highlighted_element>
+  <language>Markdown</language>
+  <offset>3</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>37</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בבעיות'</description>
+  <highlighted_element>בבעיות</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>38</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'השגיאה'</description>
+  <highlighted_element>השגיאה</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>39</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'השלב'</description>
+  <highlighted_element>השלב</highlighted_element>
+  <language>Markdown</language>
+  <offset>10</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>39</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נתקלת'</description>
+  <highlighted_element>נתקלת</highlighted_element>
+  <language>Markdown</language>
+  <offset>18</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>39</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בבעיה'</description>
+  <highlighted_element>בבעיה</highlighted_element>
+  <language>Markdown</language>
+  <offset>24</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>40</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'לתמיכה'</description>
+  <highlighted_element>לתמיכה</highlighted_element>
+  <language>Markdown</language>
+  <offset>7</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>40</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'המידע'</description>
+  <highlighted_element>המידע</highlighted_element>
+  <language>Markdown</language>
+  <offset>17</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>40</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'המלא'</description>
+  <highlighted_element>המלא</highlighted_element>
+  <language>Markdown</language>
+  <offset>23</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>43</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'מסמך'</description>
+  <highlighted_element>מסמך</highlighted_element>
+  <language>Markdown</language>
+  <offset>1</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>43</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'נכתב'</description>
+  <highlighted_element>נכתב</highlighted_element>
+  <language>Markdown</language>
+  <offset>9</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>43</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ועשוי'</description>
+  <highlighted_element>ועשוי</highlighted_element>
+  <language>Markdown</language>
+  <offset>27</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>43</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'להתעדכן'</description>
+  <highlighted_element>להתעדכן</highlighted_element>
+  <language>Markdown</language>
+  <offset>33</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>43</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בהתאם'</description>
+  <highlighted_element>בהתאם</highlighted_element>
+  <language>Markdown</language>
+  <offset>41</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>43</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'לשינויים'</description>
+  <highlighted_element>לשינויים</highlighted_element>
+  <language>Markdown</language>
+  <offset>47</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/setup_instructions.md</file>
+  <line>43</line>
+  <module>recordnew</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/setup_instructions.md" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'בגרסאות'</description>
+  <highlighted_element>בגרסאות</highlighted_element>
+  <language>Markdown</language>
+  <offset>56</offset>
+  <length>7</length>
+</problem>
+</problems>

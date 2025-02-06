@@ -1,0 +1,70 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/MainActivity.kt</file>
+  <line>29</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="class" FQNAME="com.example.screenrecorder.MainActivity" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>42</length>
+  <highlighted_element>class MainActivity : AppCompatActivity() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/RecordingStateReceiver.kt</file>
+  <line>7</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder</package>
+  <entry_point TYPE="class" FQNAME="com.example.screenrecorder.RecordingStateReceiver" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>52</length>
+  <highlighted_element>class RecordingStateReceiver : BroadcastReceiver() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/presentation/MainActivity.kt</file>
+  <line>17</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.presentation</package>
+  <entry_point TYPE="class" FQNAME="com.example.screenrecorder.presentation.MainActivity" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>42</length>
+  <highlighted_element>class MainActivity : AppCompatActivity() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>23</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="class" FQNAME="com.example.screenrecorder.service.RecordingService" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>36</length>
+  <highlighted_element>class RecordingService : Service() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+</problems>

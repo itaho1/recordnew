@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/values/strings.xml</file>
+  <line>8</line>
+  <module>recordnew.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+  <problem_class id="AndroidLintTypographyEllipsis" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Ellipsis string can be replaced with ellipsis character</problem_class>
+  <hints />
+  <description>&lt;html&gt;Replace &quot;...&quot; with ellipsis character (…, &amp;amp;#8230;) ?&lt;/html&gt;</description>
+  <highlighted_element>ההקלטה פעילה...</highlighted_element>
+  <language>XML</language>
+  <offset>36</offset>
+  <length>15</length>
+</problem>
+</problems>

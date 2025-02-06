@@ -1,0 +1,41 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>30</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="field" FQNAME="com.example.screenrecorder.service.RecordingService SCREEN_WIDTH" />
+  <problem_class id="PrivatePropertyName" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Private property naming convention</problem_class>
+  <description>Private property name &lt;code&gt;SCREEN_WIDTH&lt;/code&gt; should not contain underscores in the middle or the end #loc</description>
+  <highlighted_element>SCREEN_WIDTH</highlighted_element>
+  <language>kotlin</language>
+  <offset>16</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>31</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="field" FQNAME="com.example.screenrecorder.service.RecordingService SCREEN_HEIGHT" />
+  <problem_class id="PrivatePropertyName" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Private property naming convention</problem_class>
+  <description>Private property name &lt;code&gt;SCREEN_HEIGHT&lt;/code&gt; should not contain underscores in the middle or the end #loc</description>
+  <highlighted_element>SCREEN_HEIGHT</highlighted_element>
+  <language>kotlin</language>
+  <offset>16</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/screenrecorder/service/RecordingService.kt</file>
+  <line>32</line>
+  <module>recordnew.app.main</module>
+  <package>com.example.screenrecorder.service</package>
+  <entry_point TYPE="field" FQNAME="com.example.screenrecorder.service.RecordingService SCREEN_DPI" />
+  <problem_class id="PrivatePropertyName" severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Private property naming convention</problem_class>
+  <description>Private property name &lt;code&gt;SCREEN_DPI&lt;/code&gt; should not contain underscores in the middle or the end #loc</description>
+  <highlighted_element>SCREEN_DPI</highlighted_element>
+  <language>kotlin</language>
+  <offset>16</offset>
+  <length>10</length>
+</problem>
+</problems>

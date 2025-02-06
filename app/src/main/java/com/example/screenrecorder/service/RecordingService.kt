@@ -57,8 +57,20 @@ class RecordingService : Service() {
         Log.d(TAG, "onStartCommand called with intent: $intent")
         
         try {
-            val resultCode = intent?.getIntExtra("resultCode", Activity.RESULT_CANCELED) ?: Activity.RESULT_CANCELED
-            val data = intent?.getParcelableExtra<Intent>("data")
+            // בדיקת null
+            if (intent == null) {
+                Log.e(TAG, "Intent is null")
+                stopSelf()
+                return START_NOT_STICKY
+            }
+
+            val resultCode = intent.getIntExtra("resultCode", Activity.RESULT_CANCELED)
+            val data = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                intent.getParcelableExtra("data", Intent::class.java)
+            } else {
+                @Suppress("DEPRECATION")
+                intent.getParcelableExtra("data")
+            }
             
             Log.d(TAG, "Received resultCode: $resultCode")
             Log.d(TAG, "Received data: $data")
@@ -80,12 +92,20 @@ class RecordingService : Service() {
             
             startRecording()
             
+            // שליחת broadcast על התחלת הקלטה
+            Intent("RECORDING_STARTED").apply {
+                setPackage(packageName)
+            }.also { intent ->
+                sendBroadcast(intent)
+            }
+            
             return START_STICKY
         } catch (e: Exception) {
             Log.e(TAG, "Error in onStartCommand", e)
             stopSelf()
-            return START_NOT_STICKY
         }
+        
+        return START_NOT_STICKY
     }
 
     private fun createNotificationChannel() {
@@ -139,12 +159,6 @@ class RecordingService : Service() {
             mediaRecorder?.start()
             Log.d(TAG, "Recording started successfully")
             isRecording = true
-            
-            // שליחת broadcast על התחלת ההקלטה
-            Intent("RECORDING_STARTED").also { intent ->
-                intent.setPackage(packageName)
-                sendBroadcast(intent)
-            }
             
         } catch (e: Exception) {
             Log.e(TAG, "Failed to start recording", e)
@@ -260,6 +274,14 @@ class RecordingService : Service() {
             
             mediaProjection?.stop()
             mediaProjection = null
+            
+            // שליחת broadcast על סיום הקלטה
+            Intent("RECORDING_COMPLETED").apply {
+                setPackage(packageName)
+                putExtra("file_path", currentVideoFile?.absolutePath)
+            }.also { broadcastIntent ->
+                sendBroadcast(broadcastIntent)
+            }
             
         } catch (e: Exception) {
             Log.e(TAG, "Error stopping recording", e)
