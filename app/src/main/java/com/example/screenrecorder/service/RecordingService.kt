@@ -95,8 +95,8 @@ class RecordingService : Service() {
             // שליחת broadcast על התחלת הקלטה
             Intent("RECORDING_STARTED").apply {
                 setPackage(packageName)
-            }.also { intent ->
-                sendBroadcast(intent)
+            }.also { broadcastIntent ->
+                sendBroadcast(broadcastIntent)
             }
             
             return START_STICKY
