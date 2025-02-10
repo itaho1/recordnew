@@ -3,6 +3,8 @@ package com.example.screenrecorder.service
 import android.app.*
 import android.content.Context
 import android.content.Intent
+import android.content.IntentFilter
+import android.content.BroadcastReceiver
 import android.hardware.display.DisplayManager
 import android.hardware.display.VirtualDisplay
 import android.media.MediaRecorder
@@ -34,6 +36,15 @@ class RecordingService : Service() {
         getSystemService(Context.MEDIA_PROJECTION_SERVICE) as MediaProjectionManager
     }
 
+    private val stopRecordingReceiver = object : BroadcastReceiver() {
+        override fun onReceive(context: Context?, intent: Intent?) {
+            if (intent?.action == "STOP_RECORDING_FROM_FLOATING_BUTTON") {
+                stopRecording()
+                stopSelf()
+            }
+        }
+    }
+
     companion object {
         private const val NOTIFICATION_CHANNEL_ID = "screen_recording_channel"
         private const val NOTIFICATION_ID = 1
@@ -45,6 +56,11 @@ class RecordingService : Service() {
     override fun onCreate() {
         super.onCreate()
         createNotificationChannel()
+        registerReceiver(
+            stopRecordingReceiver,
+            IntentFilter("STOP_RECORDING_FROM_FLOATING_BUTTON"),
+            Context.RECEIVER_NOT_EXPORTED
+        )
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
@@ -97,6 +113,8 @@ class RecordingService : Service() {
             }.also { broadcastIntent ->
                 sendBroadcast(broadcastIntent)
             }
+            
+            startService(Intent(this, FloatingControlService::class.java))
             
             return START_STICKY
         } catch (e: Exception) {
@@ -257,6 +275,11 @@ class RecordingService : Service() {
             stopRecording()
         }
         super.onDestroy()
+        try {
+            unregisterReceiver(stopRecordingReceiver)
+        } catch (e: Exception) {
+            Log.e(TAG, "Error unregistering receiver", e)
+        }
     }
 
     private fun stopRecording() {
@@ -285,6 +308,8 @@ class RecordingService : Service() {
             }
             
             sendBroadcast(Intent("RECORDING_COMPLETED"))
+            
+            stopService(Intent(this, FloatingControlService::class.java))
             
         } catch (e: Exception) {
             Log.e(TAG, "Error stopping recording", e)

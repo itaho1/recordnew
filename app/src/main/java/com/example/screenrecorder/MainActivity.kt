@@ -73,6 +73,26 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private val overlayPermissionLauncher = registerForActivityResult(
+        ActivityResultContracts.StartActivityForResult()
+    ) { _ ->
+        if (Settings.canDrawOverlays(this)) {
+            checkAndRequestPermissions(getRequiredPermissions())
+        } else {
+            Toast.makeText(this, "נדרשת הרשאה להצגת חלון צף", Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private val requestPermissionLauncher = registerForActivityResult(
+        ActivityResultContracts.RequestMultiplePermissions()
+    ) { permissions ->
+        if (permissions.all { it.value }) {
+            startScreenRecording()
+        } else {
+            Toast.makeText(this, "נדרשות הרשאות להקלטה", Toast.LENGTH_SHORT).show()
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
@@ -97,34 +117,45 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "Handling intent with action: ${intent?.action}")
         if (intent?.action == "START_RECORDING_FROM_TILE") {
             Log.d(TAG, "Starting recording from tile")
-            checkAndRequestPermissions()
+            checkPermissions()
         }
     }
 
     private fun setupClickListeners() {
         binding.recordButton.setOnClickListener {
             if (!isRecording) {
-                checkAndRequestPermissions()
+                checkPermissions()
             } else {
                 stopRecording()
             }
         }
     }
 
-    private fun checkAndRequestPermissions() {
-        Log.d(TAG, "Checking permissions...")
-        val permissions = getRequiredPermissions()
-        
-        if (hasPermissions(permissions)) {
-            Log.d(TAG, "All permissions granted, starting recording...")
+    private fun checkPermissions() {
+        val permissions = mutableListOf<String>()
+        permissions.addAll(getRequiredPermissions())
+
+        if (!Settings.canDrawOverlays(this)) {
+            val intent = Intent(
+                Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                Uri.parse("package:$packageName")
+            )
+            overlayPermissionLauncher.launch(intent)
+            return
+        }
+
+        checkAndRequestPermissions(permissions)
+    }
+
+    private fun checkAndRequestPermissions(permissions: List<String>) {
+        val notGrantedPermissions = permissions.filter {
+            ContextCompat.checkSelfPermission(this, it) != PackageManager.PERMISSION_GRANTED
+        }
+
+        if (notGrantedPermissions.isEmpty()) {
             startScreenRecording()
         } else {
-            Log.d(TAG, "Requesting permissions...")
-            ActivityCompat.requestPermissions(
-                this,
-                permissions,
-                PERMISSIONS_REQUEST_CODE
-            )
+            requestPermissionLauncher.launch(notGrantedPermissions.toTypedArray())
         }
     }
 
@@ -264,10 +295,10 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
-    private fun getRequiredPermissions(): Array<String> {
+    private fun getRequiredPermissions(): List<String> {
         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             // אנדרואיד 11 ומעלה
-            arrayOf(
+            listOf(
                 Manifest.permission.RECORD_AUDIO,
                 Manifest.permission.FOREGROUND_SERVICE,
                 Manifest.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION,
@@ -275,7 +306,7 @@ class MainActivity : AppCompatActivity() {
             )
         } else {
             // אנדרואיד 10 ומטה
-            arrayOf(
+            listOf(
                 Manifest.permission.RECORD_AUDIO,
                 Manifest.permission.WRITE_EXTERNAL_STORAGE,
                 Manifest.permission.READ_EXTERNAL_STORAGE,
@@ -307,6 +338,7 @@ class MainActivity : AppCompatActivity() {
     companion object {
         private const val PERMISSIONS_REQUEST_CODE = 123
         private const val SCREEN_RECORD_REQUEST_CODE = 100
+        private const val OVERLAY_PERMISSION_REQUEST_CODE = 1234
         private const val TAG = "MainActivity"
     }
 }
