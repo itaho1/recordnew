@@ -110,6 +110,7 @@ class RecordingService : Service() {
             // שליחת broadcast על התחלת הקלטה
             Intent("RECORDING_STARTED").apply {
                 setPackage(packageName)
+                putExtra("from_tile", intent.action == "START_RECORDING_FROM_TILE")
             }.also { broadcastIntent ->
                 sendBroadcast(broadcastIntent)
             }

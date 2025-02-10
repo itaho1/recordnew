@@ -13,6 +13,8 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.os.Environment
+import android.os.Handler
+import android.os.Looper
 import android.provider.Settings
 import android.util.Log
 import android.view.WindowManager
@@ -43,6 +45,17 @@ class MainActivity : AppCompatActivity() {
                 "RECORDING_STARTED" -> {
                     isRecording = true
                     updateUI()
+                    
+                    // יציאה למסך הבית רק אחרי שההקלטה התחילה
+                    if (intent.getBooleanExtra("from_tile", false)) {
+                        Handler(Looper.getMainLooper()).postDelayed({
+                            val homeIntent = Intent(Intent.ACTION_MAIN).apply {
+                                addCategory(Intent.CATEGORY_HOME)
+                                flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                            }
+                            startActivity(homeIntent)
+                        }, 200)
+                    }
                 }
                 "RECORDING_COMPLETED" -> {
                     isRecording = false
@@ -70,6 +83,15 @@ class MainActivity : AppCompatActivity() {
             }
             isRecording = true
             updateUI()
+            
+            // יציאה למסך הבית אחרי התחלת ההקלטה
+            Handler(Looper.getMainLooper()).postDelayed({
+                val homeIntent = Intent(Intent.ACTION_MAIN).apply {
+                    addCategory(Intent.CATEGORY_HOME)
+                    flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                }
+                startActivity(homeIntent)
+            }, 500)
         }
     }
 

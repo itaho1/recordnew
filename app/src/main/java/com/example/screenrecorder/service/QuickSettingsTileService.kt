@@ -16,6 +16,9 @@ import android.os.Build
 import android.util.Log
 import androidx.core.content.ContextCompat
 import android.app.StatusBarManager
+import android.os.Handler
+import android.os.Looper
+import android.content.ComponentName
 
 class QuickSettingsTileService : TileService() {
     
@@ -34,6 +37,10 @@ class QuickSettingsTileService : TileService() {
                 }
             }
         }
+    }
+
+    private val statusBarManager by lazy {
+        getSystemService(Context.STATUS_BAR_SERVICE) as? StatusBarManager
     }
 
     init {
@@ -55,26 +62,21 @@ class QuickSettingsTileService : TileService() {
         super.onClick()
         Log.d(TAG, "Tile clicked! Current recording state: $isRecording")
         
-        try {
-            if (!isRecording) {
+        if (!isRecording) {
+            // סגירת פאנל ההגדרות המהירות
+            requestListeningState(applicationContext, ComponentName(applicationContext, QuickSettingsTileService::class.java))
+            
+            // המתנה קצרה לפני פתיחת האפליקציה
+            Handler(Looper.getMainLooper()).postDelayed({
                 val intent = Intent(this, MainActivity::class.java).apply {
-                    flags = Intent.FLAG_ACTIVITY_NEW_TASK or 
-                           Intent.FLAG_ACTIVITY_CLEAR_TOP
+                    flags = Intent.FLAG_ACTIVITY_NEW_TASK
                     action = "START_RECORDING_FROM_TILE"
                 }
                 startActivity(intent)
-                Log.d(TAG, "Started MainActivity with action: START_RECORDING_FROM_TILE")
-            } else {
-                val intent = Intent(this, RecordingService::class.java).apply {
-                    action = "STOP_RECORDING"
-                }
-                startService(intent)
-                Log.d(TAG, "Sent stop recording command")
-                isRecording = false
-                updateTileState()
-            }
-        } catch (e: Exception) {
-            Log.e(TAG, "Error in onClick", e)
+                // נעביר את היציאה למסך הבית ל-MainActivity
+            }, 200)
+        } else {
+            stopRecording()
         }
     }
     
@@ -136,6 +138,16 @@ class QuickSettingsTileService : TileService() {
             isRecording = true
             updateTileState()
         }
+    }
+
+    private fun stopRecording() {
+        val intent = Intent(this, RecordingService::class.java).apply {
+            action = "STOP_RECORDING"
+        }
+        startService(intent)
+        Log.d(TAG, "Sent stop recording command")
+        isRecording = false
+        updateTileState()
     }
 
     companion object {
