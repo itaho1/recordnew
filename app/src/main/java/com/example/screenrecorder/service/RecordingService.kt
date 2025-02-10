@@ -159,6 +159,8 @@ class RecordingService : Service() {
             Log.d(TAG, "Recording started successfully")
             isRecording = true
             
+            sendBroadcast(Intent("RECORDING_STARTED"))
+            
         } catch (e: Exception) {
             Log.e(TAG, "Failed to start recording", e)
             stopSelf()
@@ -281,6 +283,8 @@ class RecordingService : Service() {
             }.also { broadcastIntent ->
                 sendBroadcast(broadcastIntent)
             }
+            
+            sendBroadcast(Intent("RECORDING_COMPLETED"))
             
         } catch (e: Exception) {
             Log.e(TAG, "Error stopping recording", e)

@@ -75,28 +75,29 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        try {
-            // הגדרת OpenGL
-            window.setFormat(PixelFormat.RGBA_8888)
-            window.addFlags(WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED)
+        
+        Log.d(TAG, "onCreate called with intent action: ${intent?.action}")
+        
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        
+        setupClickListeners()
+        registerReceiver()
+        
+        handleIntent(intent)
+    }
 
-            binding = ActivityMainBinding.inflate(layoutInflater)
-            setContentView(binding.root)
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        Log.d(TAG, "onNewIntent called with action: ${intent?.action}")
+        handleIntent(intent)
+    }
 
-            setupClickListeners()
-            registerReceiver()
-
-            binding.openFolderButton.setOnClickListener {
-                openRecordingsFolder()
-            }
-
-            binding.checkFileButton.setOnClickListener {
-                checkLastRecording()
-            }
-            
-        } catch (e: Exception) {
-            Log.e("MainActivity", "Error in onCreate", e)
-            Toast.makeText(this, "שגיאה באתחול: ${e.message}", Toast.LENGTH_LONG).show()
+    private fun handleIntent(intent: Intent?) {
+        Log.d(TAG, "Handling intent with action: ${intent?.action}")
+        if (intent?.action == "START_RECORDING_FROM_TILE") {
+            Log.d(TAG, "Starting recording from tile")
+            checkAndRequestPermissions()
         }
     }
 
@@ -111,11 +112,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun checkAndRequestPermissions() {
+        Log.d(TAG, "Checking permissions...")
         val permissions = getRequiredPermissions()
         
         if (hasPermissions(permissions)) {
+            Log.d(TAG, "All permissions granted, starting recording...")
             startScreenRecording()
         } else {
+            Log.d(TAG, "Requesting permissions...")
             ActivityCompat.requestPermissions(
                 this,
                 permissions,
@@ -192,27 +196,12 @@ class MainActivity : AppCompatActivity() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == SCREEN_RECORD_REQUEST_CODE) {
-            if (resultCode == Activity.RESULT_OK && data != null) {
-                try {
-                    val intent = Intent(this, RecordingService::class.java).apply {
-                        putExtra("resultCode", resultCode)
-                        putExtra("data", data)
-                    }
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                        startForegroundService(intent)
-                    } else {
-                        startService(intent)
-                    }
-                    isRecording = true
-                    updateUI()
-                    updateQuickSettingsTile(true)
-                } catch (e: Exception) {
-                    Log.e(TAG, "Error in onActivityResult", e)
-                    Toast.makeText(this, "שגיאה בהתחלת השירות: ${e.message}", Toast.LENGTH_SHORT).show()
-                }
-            } else {
-                Toast.makeText(this, "הרשאת הקלטת מסך נדחתה", Toast.LENGTH_SHORT).show()
+            // העבר את התוצאה ל-QuickSettingsTileService
+            val tileIntent = Intent(this, QuickSettingsTileService::class.java).apply {
+                putExtra("resultCode", resultCode)
+                putExtra("data", data)
             }
+            startService(tileIntent)
         }
     }
 

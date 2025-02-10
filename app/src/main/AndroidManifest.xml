@@ -31,6 +31,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
+            android:launchMode="singleTop"
             android:theme="@style/Theme.ScreenRecorder">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -59,8 +60,9 @@
         <service
             android:name=".service.QuickSettingsTileService"
             android:icon="@drawable/ic_record"
-            android:label="הקלטת מסך"
+            android:label="@string/quick_settings_tile_label"
             android:exported="true"
+            android:enabled="true"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE" />
