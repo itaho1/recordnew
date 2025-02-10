@@ -12,4 +12,5 @@
     <string name="recording_title">הקלטת מסך</string>
     <string name="recording_in_progress">מקליט כעת...</string>
     <string name="screen_recording">Screen Recording</string>
+    <string name="quick_settings_tile_label">הקלטת מסך</string>
 </resources> 

@@ -24,6 +24,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import com.example.screenrecorder.databinding.ActivityMainBinding
 import com.example.screenrecorder.service.RecordingService
+import com.example.screenrecorder.service.QuickSettingsTileService
 import java.io.File
 
 class MainActivity : AppCompatActivity() {
@@ -156,6 +157,7 @@ class MainActivity : AppCompatActivity() {
             stopService(intent)
             isRecording = false
             updateUI()
+            updateQuickSettingsTile(false)
         } catch (e: Exception) {
             Log.e(TAG, "Error stopping recording", e)
             Toast.makeText(this, "שגיאה בעצירת ההקלטה: ${e.message}", 
@@ -203,6 +205,7 @@ class MainActivity : AppCompatActivity() {
                     }
                     isRecording = true
                     updateUI()
+                    updateQuickSettingsTile(true)
                 } catch (e: Exception) {
                     Log.e(TAG, "Error in onActivityResult", e)
                     Toast.makeText(this, "שגיאה בהתחלת השירות: ${e.message}", Toast.LENGTH_SHORT).show()
@@ -303,6 +306,13 @@ class MainActivity : AppCompatActivity() {
             ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE) == 
                 PackageManager.PERMISSION_GRANTED
         }
+    }
+
+    private fun updateQuickSettingsTile(isRecording: Boolean) {
+        val intent = Intent(this, QuickSettingsTileService::class.java)
+        intent.action = "UPDATE_RECORDING_STATE"
+        intent.putExtra("isRecording", isRecording)
+        sendBroadcast(intent)
     }
 
     companion object {
