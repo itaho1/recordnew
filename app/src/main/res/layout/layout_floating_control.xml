@@ -6,18 +6,65 @@
     android:orientation="horizontal"
     android:padding="8dp">
 
-    <TextView
-        android:id="@+id/timerTextView"
+    <!-- ViewFlipper יאפשר לנו להחליף בין שתי תצוגות -->
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/white"
-        android:textSize="16sp"
-        android:layout_marginEnd="8dp"/>
+        android:layout_height="wrap_content">
 
-    <ImageButton
-        android:id="@+id/stopButton"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:background="@drawable/stop_button_background"
-        android:src="@drawable/ic_stop"/>
+        <!-- תצוגת הקלטה -->
+        <LinearLayout
+            android:id="@+id/recordingLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/timerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageButton
+                android:id="@+id/stopButton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/stop_button_background"
+                android:src="@drawable/ic_stop"/>
+        </LinearLayout>
+
+        <!-- תצוגת בקרים -->
+        <LinearLayout
+            android:id="@+id/controlsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/recordButton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/record_button_background"
+                android:src="@drawable/ic_record"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageButton
+                android:id="@+id/playLastButton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_play_recording"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageButton
+                android:id="@+id/closeButton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_close"/>
+        </LinearLayout>
+
+    </ViewFlipper>
 </LinearLayout> 

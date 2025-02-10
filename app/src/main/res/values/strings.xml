@@ -13,4 +13,6 @@
     <string name="recording_in_progress">מקליט כעת...</string>
     <string name="screen_recording">Screen Recording</string>
     <string name="quick_settings_tile_label">הקלטת מסך</string>
+    <string name="play_last_recording">נגן הקלטה אחרונה</string>
+    <string name="recording_settings">הגדרות הקלטה</string>
 </resources> 

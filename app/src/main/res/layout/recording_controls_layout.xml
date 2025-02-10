@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/controls_background">
+
+    <ImageButton
+        android:id="@+id/lastRecordingButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_play_recording"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/play_last_recording"/>
+
+    <ImageButton
+        android:id="@+id/recordButton"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_record"
+        android:background="@drawable/record_button_background"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/start_recording"/>
+
+    <ImageButton
+        android:id="@+id/openFolderButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_folder"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/open_recordings"/>
+
+    <ImageButton
+        android:id="@+id/settingsButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_settings"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/recording_settings"/>
+</LinearLayout> 

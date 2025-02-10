@@ -29,6 +29,7 @@ class RecordingService : Service() {
     private var mediaRecorder: MediaRecorder? = null
     private var isRecording = false
     private var currentVideoFile: File? = null
+    private var currentIntent: Intent? = null
 
     private val SCREEN_WIDTH = 1080
 
@@ -39,8 +40,21 @@ class RecordingService : Service() {
     private val stopRecordingReceiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent?) {
             if (intent?.action == "STOP_RECORDING_FROM_FLOATING_BUTTON") {
+                Log.d(TAG, "Received stop recording broadcast")
                 stopRecording()
                 stopSelf()
+                
+                // נודיע לפאנל הצף שההקלטה הופסקה
+                val floatingIntent = Intent(context, FloatingControlService::class.java).apply {
+                    action = "STOP_RECORDING_SERVICE"
+                }
+                context?.startService(floatingIntent)
+                
+                // שליחת broadcast על סיום הקלטה
+                context?.sendBroadcast(Intent("RECORDING_COMPLETED").apply {
+                    setPackage(context.packageName)
+                    putExtra("file_path", currentVideoFile?.absolutePath)
+                })
             }
         }
     }
@@ -56,6 +70,8 @@ class RecordingService : Service() {
     override fun onCreate() {
         super.onCreate()
         createNotificationChannel()
+        
+        // רישום ה-receiver לעצירת ההקלטה
         registerReceiver(
             stopRecordingReceiver,
             IntentFilter("STOP_RECORDING_FROM_FLOATING_BUTTON"),
@@ -64,58 +80,39 @@ class RecordingService : Service() {
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
-        if (isRecording) {
-            Log.d(TAG, "Recording already in progress, ignoring start command")
+        val resultCode = intent?.getIntExtra("resultCode", -1) ?: -1
+        val data = intent?.getParcelableExtra<Intent>("data")
+
+        Log.d(TAG, "onStartCommand called with resultCode: $resultCode")
+
+        // יצירת ערוץ התראות
+        createNotificationChannel()
+        
+        // התחלת השירות בחזית מיד
+        startForeground(NOTIFICATION_ID, createNotification())
+
+        if (resultCode == -1 || data == null) {
+            Log.e(TAG, "Invalid resultCode ($resultCode) or missing data")
+            stopSelf()
             return START_NOT_STICKY
         }
-        
-        Log.d(TAG, "onStartCommand called with intent: $intent")
-        
+
         try {
-            // בדיקת null
-            if (intent == null) {
-                Log.e(TAG, "Intent is null")
-                stopSelf()
+            currentIntent = intent
+            
+            if (isRecording) {
+                Log.d(TAG, "Recording already in progress, ignoring start command")
                 return START_NOT_STICKY
             }
-
-            val resultCode = intent.getIntExtra("resultCode", Activity.RESULT_CANCELED)
-            val data = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-                intent.getParcelableExtra("data", Intent::class.java)
-            } else {
-                @Suppress("DEPRECATION")
-                intent.getParcelableExtra("data")
-            }
             
-            Log.d(TAG, "Received resultCode: $resultCode")
-            Log.d(TAG, "Received data: $data")
-
-            if (resultCode != Activity.RESULT_OK || data == null) {
-                Log.e(TAG, "Invalid resultCode ($resultCode) or missing data")
-                stopSelf()
-                return START_NOT_STICKY
-            }
-
-            createNotificationChannel()
-            Log.d(TAG, "Created notification channel")
-            
-            startForeground(NOTIFICATION_ID, createNotification())
-            Log.d(TAG, "Started foreground service")
-
             setupMediaProjection(resultCode, data)
-            Log.d(TAG, "Created MediaProjection: $mediaProjection")
-            
             startRecording()
             
-            // שליחת broadcast על התחלת הקלטה
-            Intent("RECORDING_STARTED").apply {
-                setPackage(packageName)
-                putExtra("from_tile", intent.action == "START_RECORDING_FROM_TILE")
-            }.also { broadcastIntent ->
-                sendBroadcast(broadcastIntent)
+            // נודיע לפאנל הצף שההקלטה התחילה
+            val floatingIntent = Intent(this, FloatingControlService::class.java).apply {
+                action = "START_RECORDING_SERVICE"
             }
-            
-            startService(Intent(this, FloatingControlService::class.java))
+            startService(floatingIntent)
             
             return START_STICKY
         } catch (e: Exception) {
@@ -140,16 +137,10 @@ class RecordingService : Service() {
 
     private fun createNotification(): Notification {
         return NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID)
-            .setContentTitle(getString(R.string.recording_title))
-            .setContentText(getString(R.string.recording_in_progress))
-            .setSmallIcon(android.R.drawable.ic_menu_camera)
-            .setContentIntent(
-                PendingIntent.getActivity(
-                    this, 0,
-                    Intent(this, MainActivity::class.java),
-                    PendingIntent.FLAG_IMMUTABLE
-                )
-            )
+            .setContentTitle("מקליט מסך")
+            .setContentText("ההקלטה פעילה...")
+            .setSmallIcon(R.drawable.ic_record)
+            .setPriority(NotificationCompat.PRIORITY_HIGH)
             .build()
     }
 
@@ -178,12 +169,20 @@ class RecordingService : Service() {
             Log.d(TAG, "Recording started successfully")
             isRecording = true
             
-            sendBroadcast(Intent("RECORDING_STARTED"))
+            // נודיע לפאנל הצף שההקלטה התחילה
+            val floatingIntent = Intent(this, FloatingControlService::class.java).apply {
+                action = "START_RECORDING_SERVICE"
+            }
+            startService(floatingIntent)
+            
+            // שליחת broadcast על תחילת הקלטה
+            sendBroadcast(Intent("RECORDING_STARTED").apply {
+                setPackage(packageName)
+            })
             
         } catch (e: Exception) {
-            Log.e(TAG, "Failed to start recording", e)
+            Log.e(TAG, "Error starting recording", e)
             stopSelf()
-            throw e
         }
     }
 
@@ -285,48 +284,24 @@ class RecordingService : Service() {
 
     private fun stopRecording() {
         try {
+            Log.d(TAG, "Stopping recording...")
             mediaRecorder?.apply {
-                // עצירה מסודרת של ההקלטה
                 stop()
                 reset()
                 release()
             }
             mediaRecorder = null
             
-            // שחרור המשאבים של המסך
             virtualDisplay?.release()
             virtualDisplay = null
             
             mediaProjection?.stop()
             mediaProjection = null
             
-            // שליחת broadcast על סיום הקלטה
-            Intent("RECORDING_COMPLETED").apply {
-                setPackage(packageName)
-                putExtra("file_path", currentVideoFile?.absolutePath)
-            }.also { broadcastIntent ->
-                sendBroadcast(broadcastIntent)
-            }
-            
-            sendBroadcast(Intent("RECORDING_COMPLETED"))
-            
-            stopService(Intent(this, FloatingControlService::class.java))
+            isRecording = false
             
         } catch (e: Exception) {
             Log.e(TAG, "Error stopping recording", e)
-        } finally {
-            // וידוא שכל המשאבים משוחררים
-            try {
-                mediaRecorder?.release()
-                virtualDisplay?.release()
-                mediaProjection?.stop()
-            } catch (e: Exception) {
-                Log.e(TAG, "Error releasing resources", e)
-            }
-            
-            mediaRecorder = null
-            virtualDisplay = null
-            mediaProjection = null
         }
     }
 

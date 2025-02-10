@@ -28,12 +28,16 @@ import com.example.screenrecorder.databinding.ActivityMainBinding
 import com.example.screenrecorder.service.RecordingService
 import com.example.screenrecorder.service.QuickSettingsTileService
 import java.io.File
+import android.widget.ImageButton
+import com.example.screenrecorder.service.FloatingControlService
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private var isRecording = false
     private var receiverRegistered = false
     private var lastRecordedFile: File? = null
+    private var resultCode: Int = 0
+    private var data: Intent? = null
     
     private val mediaProjectionManager by lazy {
         getSystemService(MEDIA_PROJECTION_SERVICE) as MediaProjectionManager
@@ -68,30 +72,30 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private val recordingActionReceiver = object : BroadcastReceiver() {
+        override fun onReceive(context: Context?, intent: Intent?) {
+            when (intent?.action) {
+                "START_RECORDING" -> {
+                    startScreenRecording()
+                }
+            }
+        }
+    }
+
     private val startForResult = registerForActivityResult(
         ActivityResultContracts.StartActivityForResult()
     ) { result ->
         if (result.resultCode == Activity.RESULT_OK) {
-            val intent = Intent(this, RecordingService::class.java).apply {
-                putExtra("resultCode", result.resultCode)
-                putExtra("data", result.data)
-            }
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                startForegroundService(intent)
-            } else {
-                startService(intent)
-            }
-            isRecording = true
-            updateUI()
+            Log.d(TAG, "Got screen capture permission")
+            // שמירת התוצאות לשימוש מאוחר יותר
+            resultCode = result.resultCode
+            data = result.data
             
-            // יציאה למסך הבית אחרי התחלת ההקלטה
-            Handler(Looper.getMainLooper()).postDelayed({
-                val homeIntent = Intent(Intent.ACTION_MAIN).apply {
-                    addCategory(Intent.CATEGORY_HOME)
-                    flags = Intent.FLAG_ACTIVITY_NEW_TASK
-                }
-                startActivity(homeIntent)
-            }, 500)
+            // התחלת ההקלטה
+            startRecording()
+        } else {
+            Log.e(TAG, "Screen capture permission denied")
+            Toast.makeText(this, "נדרשת הרשאה להקלטת מסך", Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -127,6 +131,13 @@ class MainActivity : AppCompatActivity() {
         registerReceiver()
         
         handleIntent(intent)
+        
+        // רישום ה-receiver
+        registerReceiver(
+            recordingActionReceiver,
+            IntentFilter("START_RECORDING"),
+            ContextCompat.RECEIVER_NOT_EXPORTED
+        )
     }
 
     override fun onNewIntent(intent: Intent?) {
@@ -136,10 +147,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun handleIntent(intent: Intent?) {
-        Log.d(TAG, "Handling intent with action: ${intent?.action}")
-        if (intent?.action == "START_RECORDING_FROM_TILE") {
-            Log.d(TAG, "Starting recording from tile")
-            checkPermissions()
+        when (intent?.action) {
+            "START_RECORDING_FROM_TILE" -> {
+                Log.d(TAG, "Starting recording from tile")
+                checkPermissions()
+            }
+            "SHOW_RECORDING_CONTROLS" -> {
+                showRecordingControls()
+            }
         }
     }
 
@@ -206,6 +221,11 @@ class MainActivity : AppCompatActivity() {
         if (receiverRegistered) {
             unregisterReceiver(recordingStateReceiver)
         }
+        try {
+            unregisterReceiver(recordingActionReceiver)
+        } catch (e: Exception) {
+            // התעלם אם ה-receiver כבר נמחק
+        }
     }
 
     private fun stopRecording() {
@@ -215,10 +235,15 @@ class MainActivity : AppCompatActivity() {
             isRecording = false
             updateUI()
             updateQuickSettingsTile(false)
+            
+            // נודיע לפאנל הצף שההקלטה הופסקה
+            val serviceIntent = Intent(this, FloatingControlService::class.java).apply {
+                action = "STOP_RECORDING_SERVICE"
+            }
+            startService(serviceIntent)
         } catch (e: Exception) {
             Log.e(TAG, "Error stopping recording", e)
-            Toast.makeText(this, "שגיאה בעצירת ההקלטה: ${e.message}", 
-                Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "שגיאה בעצירת ההקלטה: ${e.message}", Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -282,27 +307,23 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openRecordingsFolder() {
+        val folder = File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_MOVIES), "ScreenRecorder")
         try {
-            val intent = Intent("android.intent.action.MAIN")
-            intent.setClassName(
-                "com.mi.android.globalFileexplorer",
-                "com.android.fileexplorer.FileExplorerTabActivity"
-            )
-            intent.putExtra(
-                "file_path", 
-                "${Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_MOVIES)}/ScreenRecorder"
-            )
+            val intent = Intent(Intent.ACTION_VIEW).apply {
+                setDataAndType(Uri.fromFile(folder), "resource/folder")
+                flags = Intent.FLAG_ACTIVITY_NEW_TASK
+            }
             startActivity(intent)
         } catch (e: Exception) {
+            // אם לא מצליח לפתוח ישירות את התיקייה, ננסה לפתוח את מנהל הקבצים
             try {
-                val intent = Intent(Intent.ACTION_VIEW)
-                intent.type = "video/*"
+                val intent = Intent(Intent.ACTION_GET_CONTENT).apply {
+                    setDataAndType(Uri.fromFile(folder), "*/*")
+                    flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                }
                 startActivity(intent)
             } catch (e: Exception) {
-                val folder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_MOVIES)
-                Toast.makeText(this, 
-                    "הקבצים נמצאים ב: ${folder.absolutePath}/ScreenRecorder", 
-                    Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "לא ניתן לפתוח את תיקיית ההקלטות", Toast.LENGTH_SHORT).show()
             }
         }
     }
@@ -355,6 +376,90 @@ class MainActivity : AppCompatActivity() {
         intent.action = "UPDATE_RECORDING_STATE"
         intent.putExtra("isRecording", isRecording)
         sendBroadcast(intent)
+    }
+
+    private fun showRecordingControls() {
+        // החלפת התצוגה הרגילה בבקרי ההקלטה
+        setContentView(R.layout.recording_controls_layout)
+        
+        findViewById<ImageButton>(R.id.recordButton).setOnClickListener {
+            startScreenRecording()
+        }
+        
+        findViewById<ImageButton>(R.id.lastRecordingButton).setOnClickListener {
+            playLastRecording()
+        }
+        
+        findViewById<ImageButton>(R.id.openFolderButton).setOnClickListener {
+            openRecordingsFolder()
+        }
+        
+        findViewById<ImageButton>(R.id.settingsButton).setOnClickListener {
+            // נטפל בזה בהמשך
+            Toast.makeText(this, "הגדרות יתווספו בקרוב", Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private fun playLastRecording() {
+        lastRecordedFile?.let { file ->
+            try {
+                val uri = FileProvider.getUriForFile(
+                    this,
+                    "${packageName}.provider",
+                    file
+                )
+                val intent = Intent(Intent.ACTION_VIEW).apply {
+                    setDataAndType(uri, "video/mp4")
+                    addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                }
+                startActivity(intent)
+            } catch (e: Exception) {
+                Toast.makeText(this, "לא ניתן לפתוח את הקובץ: ${e.message}", Toast.LENGTH_LONG).show()
+            }
+        }
+    }
+
+    private fun startRecording() {
+        try {
+            Log.d(TAG, "Starting recording with resultCode: $resultCode")
+            val intent = Intent(this, RecordingService::class.java).apply {
+                putExtra("resultCode", resultCode)
+                putExtra("data", data)
+            }
+            
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                startForegroundService(intent)
+            } else {
+                startService(intent)
+            }
+            
+            // נמתין קצת לפני התחלת הפאנל הצף והיציאה למסך הבית
+            Handler(Looper.getMainLooper()).postDelayed({
+                val floatingIntent = Intent(this, FloatingControlService::class.java).apply {
+                    action = "START_RECORDING_SERVICE"
+                }
+                startService(floatingIntent)
+                
+                // יציאה למסך הבית
+                val homeIntent = Intent(Intent.ACTION_MAIN).apply {
+                    addCategory(Intent.CATEGORY_HOME)
+                    flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                }
+                startActivity(homeIntent)
+            }, 500)
+            
+            isRecording = true
+            updateUI()
+            updateQuickSettingsTile(true)
+        } catch (e: Exception) {
+            Log.e(TAG, "Error starting recording", e)
+            Toast.makeText(this, "שגיאה בהתחלת ההקלטה: ${e.message}", Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private fun startNewRecording() {
+        // נתחיל את הקלטת המסך
+        startScreenRecording()
     }
 
     companion object {
